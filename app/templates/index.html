@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Load Balancing and Caching Visualization</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Load Balancing, Caching, and Rate Limiting</h1>
+
+    <div>
+        <label for="cache">Use Cache?</label>
+        <input type="checkbox" id="cache" name="cache">
+        <label for="data">Data:</label>
+        <input type="text" id="data" placeholder="Enter data">
+        <button onclick="sendRequest()">Send Request</button>
+    </div>
+
+    <div id="response"></div>
+    <canvas id="loadChart"></canvas>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
