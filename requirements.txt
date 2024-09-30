@@ -1,2 +1,5 @@
-plaintext
-Flask==2.0.1
+Flask
+gunicorn
+redis
+flask-limiter
+chart.js
