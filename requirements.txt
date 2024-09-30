@@ -2,4 +2,4 @@ Flask
 gunicorn
 redis
 flask-limiter
-chart.js
+
